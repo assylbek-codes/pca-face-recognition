@@ -27,5 +27,6 @@ def main():
     # Display grid of first 48 principal components
     display_grid(mean_face, eigenfaces_normalized, grid_size=7, plot_title="6. Plot mean_face and 48 PC in 7x7 grid.png")
 
+
 if __name__ == "__main__":
     main()
